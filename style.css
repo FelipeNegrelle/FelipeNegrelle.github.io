@@ -1,0 +1,305 @@
+body {
+    background: #051D3B;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1.5em 1em 1em;
+}
+
+main {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+/*header*/
+
+.logo {
+
+    width: 145px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.barraDeBusca {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    border-style: none;
+
+    width: 50.13em;
+    height: 3.73em;
+    padding: 0 1em 0 1em;
+    margin-top: 0.6em;
+    margin-right: 10em;
+
+    color: blanchedalmond;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 300ms;
+}
+
+.barraDeBusca:hover {
+
+    background: rgba(255, 255, 255, 0.24);
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.userPic {
+    background-color: #051D3B;
+    width: 100px;
+    transition: 300ms;
+}
+
+.userPic:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+}
+
+.img {
+
+    padding-right: 0.5em;
+}
+
+.nome {
+
+    /*Username Style*/
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/*menu*/
+
+.menu {
+    width: fit-content;
+    padding-left: 1.5em;
+    margin: 0;
+    display: flex;
+    float: left;
+    flex-direction: column;
+}
+
+.titulo {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    display: flex;
+    padding: 2em 2em 0 2em;
+    width: fit-content;
+    height: fit-content;
+}
+
+.menu a {
+    display: flex;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+.link {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.75em 0;
+    transition: 450ms;
+}
+
+.link2 {
+    opacity: 16%;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.75em 0;
+    transition: 450ms;
+}
+
+li :hover {
+
+    transform: scale(0.87);
+}
+
+
+.icon {
+    background-color: #5081FB;
+    border-radius: 15px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    padding: 0.5em;
+    margin-right: 0.3em;
+}
+
+.icon2 {
+    background-color: #5081FB;
+    border-radius: 15px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    padding: 0.5em;
+    margin-right: 0.3em;
+}
+
+/*editor de código*/
+
+div.code {
+    white-space: pre;
+}
+
+.editor {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    color: blanchedalmond;
+    outline: 0;
+}
+
+.editor .code {
+    border: #6BD1FF 1em solid;
+    background-color: #302c34;
+    border-radius: 7px;
+    padding: 1em;
+}
+
+.botoes {
+    display: flex;
+    align-items: flex-end;
+}
+
+.editor button {
+    background-color: rgba(80, 129, 251, 0.08);
+    color: blanchedalmond;
+    margin-top: 1em;
+}
+
+
+/*side bar*/
+
+.sidebar {
+
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    vertical-align: top;
+    padding-right: 1.5em;
+}
+
+.sidebar h2 {
+    padding-top: 0;
+    padding-bottom: 0.5em;
+
+}
+
+.input {
+
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    border-style: none;
+    color: blanchedalmond;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 1em 2.5em;
+    margin: 1em 0 0 0;
+    resize: none;
+    text-align: start;
+    transition: 300ms;
+}
+
+.input:hover {
+    background: rgba(255, 255, 255, 0.24);
+}
+
+.seletor {
+
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    border-style: none;
+    color: blanchedalmond;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    padding: 1em 5.8em;
+    margin: 1em 0 1em 0;
+    resize: none;
+    text-align: start;
+    transition: 300ms;
+}
+
+.seletor:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.24);
+}
+
+#seletorCores {
+
+    width: 19em;
+    height: 3em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    background: #051D3B;
+}
+
+#seletorCores:hover {
+
+    cursor: pointer;
+}
+
+.option {
+    background: #051D3B;
+}
+
+.botao {
+
+    background-color: #5081FB;
+    border-style: none;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0.8em 5.1em;
+    transition: 300ms;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: #7BA4FC;
+}
+
+.botao:active {
+    border: 4px solid rgba(80, 129, 251, 0.72);
+}
